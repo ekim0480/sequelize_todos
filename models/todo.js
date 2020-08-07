@@ -6,7 +6,7 @@ module.exports = function(sequelize, DataTypes) {
         },
         complete: {
             type: DataTypes.BOOLEAN,
-            allowNull: false
+            defaultValue: false
         }
     });
     return Todo
